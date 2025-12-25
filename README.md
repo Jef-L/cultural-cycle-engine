@@ -2,6 +2,16 @@
 
 A comprehensive analytical engine for understanding and predicting cultural cycles across major world civilizations based on the theory of 450-year and 2250-year cycles.
 
+## ✅ Historical Validation: 76.2% Overall Accuracy
+
+**Tested against 45 historical events spanning 2500 years:**
+- **450-year cycle transition points**: 100% accuracy
+- **Civilization conflict predictions**: 100% accuracy  
+- **Political-cultural anti-phase oscillation**: 78.6% accuracy
+- **Mid-term political events**: 50% accuracy
+
+**See [VALIDATION_REPORT.md](VALIDATION_REPORT.md) and [TEST_RESULTS_SUMMARY.md](TEST_RESULTS_SUMMARY.md) for detailed analysis.**
+
 ## Overview
 
 This engine implements a sophisticated model of cultural evolution that identifies predictable patterns in the rise and fall of civilizations. It analyzes three major cultural spheres:
@@ -323,12 +333,34 @@ python examples/historical_analysis.py
 ## Running Tests
 
 ```bash
-# Run civilization tests
+# Run unit tests
 python tests/test_civilization.py
-
-# Run cycle engine tests
 python tests/test_cycle_engine.py
+python tests/test_integration.py
+
+# Run historical validation (verify model against 45 real historical events)
+python tests/test_historical_validation.py
+
+# All tests
+python tests/test_civilization.py && \
+python tests/test_cycle_engine.py && \
+python tests/test_integration.py && \
+echo "✓ All tests passed!"
 ```
+
+### Test Coverage
+
+- **Unit Tests**: Core functionality (civilization models, cycle calculations, phase analysis)
+- **Integration Tests**: End-to-end workflows and API consistency
+- **Historical Validation**: 45 historical events across 2500 years
+  - Spring and Autumn Period (-500 BCE)
+  - Qin Dynasty Unification (-221 BCE)
+  - Fall of Western Rome (476 CE)
+  - Islamic Golden Age (800 CE)
+  - Renaissance (1300-1500 CE)
+  - Opium Wars (1840 CE)
+  - World Wars (1914-1945 CE)
+  - And many more...
 
 ## Key Insights
 
