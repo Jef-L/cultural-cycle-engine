@@ -1,5 +1,21 @@
 # Quick Start Guide
 
+## ⚠️ Important: Read This First
+
+**This is a CULTURAL CYCLE analysis tool, not a national predictor.**
+
+### Key Points
+- **Analyzes**: Regional cultural spheres (华夏文化圈, 基督教文化圈, etc.)
+- **Not**: Specific countries or nations
+- **Provides**: Macro cultural trends and 450/2250-year cycle positions
+- **Does NOT**: Predict specific national events
+
+**To predict specific countries**: Combine cultural cycle + political cycle + economic cycle
+
+See [THEORETICAL_CLARIFICATION.md](THEORETICAL_CLARIFICATION.md) and [examples/correct_usage_example.py](examples/correct_usage_example.py)
+
+---
+
 ## Installation
 
 ```bash

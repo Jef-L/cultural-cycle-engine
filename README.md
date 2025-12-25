@@ -12,13 +12,49 @@ A comprehensive analytical engine for understanding and predicting cultural cycl
 
 **See [VALIDATION_REPORT.md](VALIDATION_REPORT.md) and [TEST_RESULTS_SUMMARY.md](TEST_RESULTS_SUMMARY.md) for detailed analysis.**
 
+## ⚠️ Important Theoretical Clarification
+
+**This is a CULTURAL CYCLE engine, not a "civilization" predictor.**
+
+### Key Distinctions
+
+- **Cultural Cycle (文化周期)**: The fundamental rhythm of cultural evolution in a region
+- **Civilization (文明)**: A peak phase within a cultural cycle when culture flourishes
+- **Relationship**: `Cultural Cycle ⊃ Civilization Phase`
+
+### What This Model Provides
+
+✅ **Cultural sphere cycle analysis** (regional, long-term patterns)
+✅ **Macro-level trends** (450-year and 2250-year rhythms)
+✅ **Cultural-political anti-phase dynamics**
+✅ **Cross-cultural comparisons**
+
+### What This Model Does NOT Provide
+
+❌ Direct prediction of specific nations/states
+❌ Standalone political cycle analysis
+❌ Standalone economic cycle analysis
+❌ Short-term event forecasting
+
+**To predict specific countries**, you must combine:
+```
+Cultural Cycle Analysis (this model)
++ Political Cycle Analysis (not included)
++ Economic Cycle Analysis (not included)
+= Comprehensive national prediction
+```
+
+**See [THEORETICAL_CLARIFICATION.md](THEORETICAL_CLARIFICATION.md) for detailed explanation.**
+
+---
+
 ## Overview
 
-This engine implements a sophisticated model of cultural evolution that identifies predictable patterns in the rise and fall of civilizations. It analyzes three major cultural spheres:
+This engine implements a sophisticated model of cultural evolution that identifies predictable patterns in the development of major cultural spheres. It analyzes three major cultural regions:
 
-- **Chinese Civilization (华夏文明)**: Starting from 221 BCE (Qin Dynasty unification)
-- **Christian Civilization (基督教文明)**: Starting from 33 CE
-- **Islamic Civilization (伊斯兰文明)**: Starting from 610 CE (Hijra)
+- **Chinese Cultural Sphere (华夏文化圈)**: Starting from 221 BCE (Qin Dynasty unification)
+- **Christian Cultural Sphere (基督教文化圈)**: Starting from 33 CE
+- **Islamic Cultural Sphere (伊斯兰文化圈)**: Starting from 610 CE (Hijra)
 
 ## Core Theory
 
